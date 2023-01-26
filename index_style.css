@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Montserrat:wght@100;300;400&display=swap');
+
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+
+ * {
+ 	padding: 0;
+ 	margin: 0;
+ 	box-sizing: border-box;
+ 	transition: 0.5s;
+ 	font-family: 'Montserrat', sans-serif;
+ }
+
+ body {
+ 	height: 100vh;
+ 	width: 100%;
+ 	position: relative;
+ }
+
+
+ .imagen {
+ 	width: 400px;
+ 	margin: 0 auto;
+ 	position: absolute;
+ 	z-index: 3;
+ 	left: 483px;
+ 	top: 5px;
+
+ }
+
+
+
+
+ .contenedorIzquierdo {
+
+ 	background-color: rgb(2, 27, 34);
+ 	height: 100vh;
+ 	width: 50%;
+ 	display: flex;
+ 	justify-content: right;
+ 	align-items: top;
+ 	flex-wrap: wrap;
+
+
+ }
+
+ .cont {
+ 	margin: auto;
+ 	display: table;
+
+ }
+
+ h1 {
+ 	float: left;
+ 	color: #fff;
+ 	position: relative;
+ }
+
+ h1 span {
+ 	position: absolute;
+ 	right: 0;
+ 	width: 0;
+ 	background: rgb(2, 27, 34);
+ 	border-left: 2px solid #000;
+
+ 	animation: maquina 5s infinite alternate steps(25);
+ }
+
+ @keyframes maquina {
+ 	from {
+ 		width: 100%;
+ 	}
+
+ 	to {
+ 		width: 0;
+ 	}
+ }
+
+
+
+
+
+ footer {
+ 	width: 100%;
+ 	position: absolute;
+ 	bottom: 0;
+ 	left: 0;
+ 	padding: 2rem 8%;
+
+ }
+
+ .ContenedorMenu {
+ 	display: flex;
+ 	margin-bottom: 1rem;
+ 	padding: 1rem;
+ 	font-size: 20px;
+ 	font-weight: bold;
+ 	list-style-type: none;
+ }
+
+ .menuItem {
+ 	margin: 1rem 1.5rem;
+ 	cursor: pointer;
+ 	opacity: 0.6;
+ 	justify-content: center;
+ 	align-items: center;
+ 	-webkit-animation: jello-horizontal a 0.9s both;
+ 	animation: jello-horizontal 0.9s both;
+	 
+
+ }
+ .menuItem a {
+    text-decoration: none;
+	color:aliceblue;
+
+ }
+
+
+ 	@-webkit-keyframes jello-horizontal  {
+ 		0% {
+ 			-webkit-transform: scale3d(1, 1, 1);
+ 			transform: scale3d(1, 1, 1);
+ 		}
+
+ 		30% {
+ 			-webkit-transform: scale3d(1.25, 0.75, 1);
+ 			transform: scale3d(1.25, 0.75, 1);
+ 		}
+
+ 		40% {
+ 			-webkit-transform: scale3d(0.75, 1.25, 1);
+ 			transform: scale3d(0.75, 1.25, 1);
+ 		}
+
+ 		50% {
+ 			-webkit-transform: scale3d(1.15, 0.85, 1);
+ 			transform: scale3d(1.15, 0.85, 1);
+ 		}
+
+ 		65% {
+ 			-webkit-transform: scale3d(0.95, 1.05, 1);
+ 			transform: scale3d(0.95, 1.05, 1);
+ 		}
+
+ 		75% {
+ 			-webkit-transform: scale3d(1.05, 0.95, 1);
+ 			transform: scale3d(1.05, 0.95, 1);
+ 		}
+
+ 		100% {
+ 			-webkit-transform: scale3d(1, 1, 1);
+ 			transform: scale3d(1, 1, 1);
+ 		}
+ 	}
+
+ 	@keyframes jello-horizontal {
+ 		0% {
+ 			-webkit-transform: scale3d(1, 1, 1);
+ 			transform: scale3d(1, 1, 1);
+ 		}
+
+ 		30% {
+ 			-webkit-transform: scale3d(1.25, 0.75, 1);
+ 			transform: scale3d(1.25, 0.75, 1);
+ 		}
+
+ 		40% {
+ 			-webkit-transform: scale3d(0.75, 1.25, 1);
+ 			transform: scale3d(0.75, 1.25, 1);
+ 		}
+
+ 		50% {
+ 			-webkit-transform: scale3d(1.15, 0.85, 1);
+ 			transform: scale3d(1.15, 0.85, 1);
+ 		}
+
+ 		65% {
+ 			-webkit-transform: scale3d(0.95, 1.05, 1);
+ 			transform: scale3d(0.95, 1.05, 1);
+ 		}
+
+ 		75% {
+ 			-webkit-transform: scale3d(1.05, 0.95, 1);
+ 			transform: scale3d(1.05, 0.95, 1);
+ 		}
+
+ 		100% {
+ 			-webkit-transform: scale3d(1, 1, 1);
+ 			transform: scale3d(1, 1, 1);
+ 		}
+ 	}
+	
+ 
+
+ .menuItem:hover {
+ 	opacity: 1;
+ }
+
+ .contededorDerecho {
+ 	background-position: center;
+ 	background-color: aliceblue;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	width: 50%;
+ 	height: 100vh;
+ }
+ .habilidades{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+
+ 	
+	
+ }
+ .habilidades h1{
+	color: aliceblue;
+	font-weight: bold;
+	
+ 	
+ 	
+ 	transition: all 800ms ease;
+ }
+ .habilidades h1:hover{
+	color:  rgb(2, 27, 34);
+	font-weight: bold;
+ }
+
+
+ #pantalla-dividida {
+ 	display: flex;
+ }
+
+ .descripcion {
+ 	padding-top: 50px;
+ 	text-align: end;
+
+ }
+
+ .contenedorPadre {
+ 	background-color: aliceblue;
+ 	text-align: center;
+ 	justify-content: center;
+ 	padding-bottom: 15px;
+	
+ }
+
+ .contenedorHijo {
+ 	height: 100px;
+ 	width: 120px;
+ 	display: inline-block;
+ 	align-items: top;
+
+ }
+
+ .img {
+ 	height: 100px;
+ 	width: 100px;
+ 	display: inline;
+ 	padding: 10px;
+ 	align-items: top;
+ 	box-shadow: 1px 10px 25px rgba(33, 151, 145, 0.2);
+ 	border-radius: 2px;
+ 	cursor: default;
+ 	transition: all 400ms ease;
+
+ }
+
+ .img:hover {
+ 	box-shadow: 5px 5px 20px rgba(8, 123, 177, 0.4);
+ 	transform: translateY(-3%);
+
+ }
