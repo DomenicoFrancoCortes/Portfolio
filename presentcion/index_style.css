@@ -313,6 +313,10 @@ main {
 .item__body h3{
     margin-top: 15px;
 }
+#proyecto2{
+    width: 100%;
+    padding: 1.1rem;
+}
 
 .item__body p {
     margin: 0;
