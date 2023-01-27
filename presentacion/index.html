@@ -6,6 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://kit.fontawesome.com/c1e349b0e6.js" crossorigin="anonymous"></script>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="../presentacion/index_style.css">
 
 
@@ -18,7 +20,7 @@
 
 <!-- Seccion Header -->
   <header>
-    <div class="container__header">
+    <div class="container__header" data-aos="fade-left">
       <div class="video">
         <video src="../assets/img/Celeste Azul Simple Profesional Logo animado.mp4" autoplay playinline loop muted
           preload="auto"></video>
@@ -43,8 +45,8 @@
   <main>
 
     <!-- Seccion Presentacion  -->
-    <div class="cover">
-      <div class="texto_informacion-cover">
+    <div class="cover" data-aos="fade-right">
+      <div class="texto_informacion-cover"  data-aos="fade-up">
         <h1> Doménico <span>Franco Cortés</span> </h1>
         <div class="divider"></div>
         <h2>Estudiante de Desarrollo de Software</h2>
@@ -62,7 +64,7 @@
         <p>Receptivo a trabajar a máxima exigencia, a lo largo de los estudios destaca la dedicación
           e integridad que aplicó a los trabajos propuestos.</p>
       </div>
-      <div class="media__cover">
+      <div class="media__cover" data-aos="fade-left">
       
           
 
@@ -74,7 +76,7 @@
 
     </div>
     <!-- Seccion Habilidades blandas -->
-    <div class="container__banner">
+    <div class="container__banner" data-aos="fade-right">
       <div class="banner">
         <div class="banner__icono">
 
@@ -102,7 +104,7 @@
     <!-- Seccion Habilidades en Programacion  -->
     <section>
 
-      <div class="contededorDerecho">
+      <div class="contededorDerecho" data-aos="fade-left">
         <div class="contenedorPadre">
 
           <div class="habilidades">
@@ -133,7 +135,7 @@
     </section>
 
     <!-- Seccion Proyectos  -->
-    <section>
+    <section data-aos="fade-left">
       <h1 class="tituloPro" id="proyecto">Proyectos</h1>
       <div class="grid">
         <div class="item">
@@ -190,9 +192,9 @@
       </div>
     </section>
 <!-- Seccion Formulario -->
-    <section class="sectionFormulario">
+    <section class="sectionFormulario" >
 
-      <div class="container" id="contacto">
+      <div class="container" id="contacto"  data-aos="fade-up">
         <div class="titulo">
           <h1> ¿Trabajamos Juntos?</h1>
 
@@ -257,9 +259,13 @@
     </section>
   </main>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
-  
-  <script src="../presentacion/script.js"></script>
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="../presentacion/script.js"></script>
+  <script>
+    AOS.init();
+    duration: 6000
+  </script>
 
 </body>
 
