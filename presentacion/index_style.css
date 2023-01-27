@@ -17,6 +17,7 @@ body {
 /*Seccion Header*/
 header {
     height: 100%;
+
 }
 
 .container__header {
@@ -26,19 +27,22 @@ header {
     padding: 40px;
     padding-top: 80px;
     display: flex;
+
     justify-content: space-between;
     align-items: center;
 }
 
 .container__header video {
-    width: 250px;
+    width: 180px;
 }
+
 
 .menu nav ul {
     display: flex;
 }
 
 .menu nav ul li {
+
     list-style: none;
     padding: 0px 20px;
 }
@@ -62,7 +66,7 @@ header {
 /*Seccion Presentacion*/
 main {
     max-width: 1200px;
-    
+
     padding: 40px;
     margin: auto;
 }
@@ -76,7 +80,7 @@ main {
 
 .texto_informacion-cover {
     width: 50%;
-    
+
 }
 
 .texto_informacion-cover h1 {
@@ -122,11 +126,14 @@ main {
 }
 
 .media__cover img {
-    width: 100%;
+
+
     margin-top: -40px;
-    border-radius: 5px;
-    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.5);
+
+
+
 }
+
 
 /*Seccion Habilidades Blandas*/
 
@@ -269,7 +276,7 @@ main {
 
 
     color: rgba(6, 48, 85);
-     background-color: rgb(0, 204, 239); 
+    background-color: rgb(0, 204, 239);
     border-radius: 15px;
     padding: 0.5rem;
 }
@@ -301,7 +308,7 @@ main {
 
     border-radius: 15px;
     transition: transform 300ms;
-     background-color: #82ebe0; 
+    background-color: #82ebe0;
     transform: translate3d(0, calc(100% - 3.5rem), 0);
 }
 
@@ -310,10 +317,12 @@ main {
     padding: 1rem;
     margin-top: 15px;
 }
-.item__body h3{
+
+.item__body h3 {
     margin-top: 15px;
 }
-#proyecto2{
+
+#proyecto2 {
     width: 100%;
     padding: 1.1rem;
 }
@@ -326,7 +335,7 @@ main {
     width: 100%;
     height: 100%;
     display: block;
-    
+
     object-fit: cover;
 }
 
@@ -349,12 +358,12 @@ main {
     width: 100%;
     display: flex;
     padding-top: 25px;
-    justify-content:space-around;
-   
+    justify-content: space-around;
+
 }
 
 .contIconos img {
-     margin-top: 15px;
+    margin-top: 15px;
     width: 40px;
     height: 40px;
 
@@ -483,7 +492,7 @@ main {
 
 /*Seccion Footer*/
 
-.hsg-footer nav ul  {
+.hsg-footer nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -491,8 +500,9 @@ main {
 
 
 }
+
 .hsg-footer p {
-     margin: 10px; 
+    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -588,7 +598,7 @@ main {
     }
 
     .menu nav ul {
-        padding: 20px 0px;
+        padding: 10px 0px;
         flex-direction: column;
         background: #fff;
     }

@@ -22,7 +22,7 @@ const firebaseConfig = {
     var name = getElementVal("name");
     var emailid = getElementVal("emailid");
     var msgContent = getElementVal("msgContent");
-  console.log(name , emailid, msgContent);
+ 
     
 
     if(name !== null || emailid !== null || msgContent !== null ){
@@ -67,3 +67,21 @@ const firebaseConfig = {
   const getElementVal = (id) => {
     return document.getElementById(id).value;
   };
+
+  // menu desplegable y efecto paralax 
+document.getElementById("icono-menu").addEventListener("click", mostrar_menu);
+
+function mostrar_menu() {
+
+    document.querySelector(".menu").classList.toggle("mostrar_menu");
+    
+
+}
+
+window.onscroll = function () {
+    var posicion = window.pageYOffset || document.documentElement.scrollTop;
+    var elemento1 = document.getElementById("icono");
+    var elemento2 = document.getElementById("icon_fire");
+    elemento1.style.bottom = posicion * 0.1 + "px";
+    elemento2.style.top = posicion * 0.1 + "px";
+}
