@@ -113,7 +113,7 @@ main {
 
 .texto_informacion-cover h2:hover {
     color: rgb(14, 137, 172);
-    font-weight: bold;
+    
 }
 
 .texto_informacion-cover p  {
@@ -125,6 +125,16 @@ main {
     font-size: 18px;
     margin-top: 40px;
     color: rgb(12, 105, 187); 
+}
+.texto_informacion-cover ul li a{
+    text-decoration: none;
+    color: rgb(12, 105, 187); 
+    
+    transition: all 100ms ease;
+}
+.texto_informacion-cover ul li a:hover {
+    color: rgb(6, 48, 85);
+    font-weight: bold;
 }
 
 .media__cover {
@@ -219,6 +229,7 @@ main {
     justify-content: center;
     border-radius: 15px;
     box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.5);
+    
 
 }
 .contenedorPadre h1{
