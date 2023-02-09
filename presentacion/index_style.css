@@ -17,7 +17,7 @@ body {
 /*Seccion Header*/
 header {
     height: 100%;
-
+    
 }
 
 .container__header {
@@ -36,7 +36,6 @@ header {
     width: 180px;
 
 }
-
 
 .menu nav ul {
     display: flex;
@@ -153,6 +152,27 @@ main {
 
 }
 
+.btn_Cv{
+    padding: 14px 15px;
+    margin-top: 15px;
+    background-color: #fff;
+    color: rgb(16, 35, 99);
+
+    font-weight: 500;
+    border-color: solid 0.5px rgb(16,35,99);
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: opacity 300ms;
+}
+.btn_Cv a {
+    text-decoration: none;
+    background-color: #fff;
+    color: rgb(16, 35, 99);
+}
+.btn_Cv:hover{
+    opacity: 0.6;
+}
 
 /*Seccion Habilidades Blandas*/
 
@@ -609,11 +629,14 @@ main {
         display: block;
         cursor: pointer;
         font-size: 24px;
+        
+
     }
 
     .container__header video {
         display: none;
     }
+   
 
     .menu {
         height: 0px;
