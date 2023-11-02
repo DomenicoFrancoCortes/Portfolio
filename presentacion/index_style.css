@@ -269,7 +269,7 @@ main {
 
 .img {
     height: 100px;
-    width: 100px;
+    /* width: 100px; */
     display: inline;
     padding: 10px;
     align-items: top;
