@@ -352,7 +352,7 @@ main {
 
     border-radius: 15px;
     transition: transform 300ms;
-    background-color: #82ebe0;
+    background-color: #ffffff;
     transform: translate3d(0, calc(100% - 3.5rem), 0);
 }
 
